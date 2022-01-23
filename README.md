@@ -2067,8 +2067,6 @@ This homework allowed us to practice well all our knowledge learned in this cour
  
  ayoub.hsaine@eidia.ueuromed.org
  <br>
- rachid.achraf@eidia.ueuromed.org
- <br>
- rachidhsaine77@gmail.com
+ hsaineayoub77@gmail.com
  
-> Since the main tools to illustrate your work is the media. try to fix the links of the videoa. Because I can't see them.
+
