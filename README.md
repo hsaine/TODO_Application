@@ -70,10 +70,11 @@ Welcome to our Application,**To Do** is a simple application help users to organ
 <details>
 <summary>The mainwindow of the application</summary>
 <br>
-  <h3>Description</h3>
+ <h3>Description</h3>
  <p>This part contain the implimentation.h and implimentation.cpp of the mainwindow of todo,for each declaration in the code you will find a comment explain
  its functionality.
  </p>
+ 
 <details>
 <summary> todo.h</summary>
 <br>
