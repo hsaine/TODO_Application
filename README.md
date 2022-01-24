@@ -116,31 +116,31 @@ private slots:
     
         void on_actionQuit_Task_triggered();//slot allow user to quit the application
     
-        void on_actiondepending_triggered();//slot allow user to hide/show the pending tasks
+void on_actiondepending_triggered();//slot allow user to hide/show the pending tasks
     
-        void on_actionFinished_task_triggered();//slot allow user to hide/show the finished tasks
+void on_actionFinished_task_triggered();//slot allow user to hide/show the finished tasks
     
-        //void ourelmnt(QIcon icon, QString str1, QDate thedate, QString str2, QListWidget *list);
+ //void ourelmnt(QIcon icon, QString str1, QDate thedate, QString str2, QListWidget *list);
     
-        void on_actionDelete_Task_triggered(); //slot allow user to delete tasks 
-    
-    private:
-        Ui::todo *ui;
-        void  addelement(); //method contain the implmentation of adding new task when user click on add new task
-    
-    };
-    #endif // TODO_H
+void on_actionDelete_Task_triggered(); //slot allow user to delete tasks 
+private:
+Ui::todo *ui;
+void  addelement(); //method contain the implmentation of adding new task when user click on add new task    
+};
+#endif // TODO_H
+ 
 ```
+ 
 </details>
 
-</details>
 
 <details>
 <summary>todo.cpp</summary>
 <br>
 
 ```
- #include "todo.h"
+ 
+#include "todo.h"
 #include "ui_todo.h"
 #include"newdialog.h"
 #include<QPixmap>
