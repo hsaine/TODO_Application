@@ -130,10 +130,7 @@ private slots:
     
     };
     #endif // TODO_H
-    
-
 ```
- 
 </details>
 
 <details>
