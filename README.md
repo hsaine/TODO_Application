@@ -77,9 +77,9 @@ Welcome to our Application,**To Do** is a simple application help users to organ
  
 <details>
 <summary> todo.h</summary>
-<br>
  
 ```
+ 
 #ifndef TODO_H
 #define TODO_H
 
@@ -131,6 +131,8 @@ private slots:
     };
     #endif // TODO_H
 ```
+</details>
+
 </details>
 
 <details>
