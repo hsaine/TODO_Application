@@ -70,16 +70,15 @@ Welcome to our Application,**To Do** is a simple application help users to organ
 <details>
 <summary>The mainwindow of the application</summary>
 <br>
- <h3>Description</h3>
+  <h3>Description</h3>
  <p>This part contain the implimentation.h and implimentation.cpp of the mainwindow of todo,for each declaration in the code you will find a comment explain
  its functionality.
  </p>
- 
 <details>
- 
 <summary> todo.h</summary>
-<br> 
-``` 
+<br>
+ 
+```
 #ifndef TODO_H
 #define TODO_H
 
@@ -116,31 +115,32 @@ private slots:
     
         void on_actionQuit_Task_triggered();//slot allow user to quit the application
     
-void on_actiondepending_triggered();//slot allow user to hide/show the pending tasks
+        void on_actiondepending_triggered();//slot allow user to hide/show the pending tasks
     
-void on_actionFinished_task_triggered();//slot allow user to hide/show the finished tasks
+        void on_actionFinished_task_triggered();//slot allow user to hide/show the finished tasks
     
- //void ourelmnt(QIcon icon, QString str1, QDate thedate, QString str2, QListWidget *list);
+        //void ourelmnt(QIcon icon, QString str1, QDate thedate, QString str2, QListWidget *list);
     
-void on_actionDelete_Task_triggered(); //slot allow user to delete tasks 
-private:
-Ui::todo *ui;
-void  addelement(); //method contain the implmentation of adding new task when user click on add new task    
-};
-#endif // TODO_H
- 
-```
+        void on_actionDelete_Task_triggered(); //slot allow user to delete tasks 
+    
+    private:
+        Ui::todo *ui;
+        void  addelement(); //method contain the implmentation of adding new task when user click on add new task
+    
+    };
+    #endif // TODO_H
+    
 
+```
+ 
 </details>
- 
- 
 
 <details>
 <summary>todo.cpp</summary>
 <br>
 
 ```
-#include "todo.h"
+ #include "todo.h"
 #include "ui_todo.h"
 #include"newdialog.h"
 #include<QPixmap>
@@ -344,7 +344,9 @@ void todo::on_actionFinished_task_triggered()
 
 
 }
- 
+
+
+
 ```
 
 </details>
@@ -354,7 +356,6 @@ void todo::on_actionFinished_task_triggered()
 <br>
 
 ```
-
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>todo</class>
@@ -1023,8 +1024,8 @@ void login::on_pushButton_clicked()
 <br>
  
 ```
- 
-#include "todo.h"
+ #include "todo.h"
+
 #include <QApplication>
 #include"login.h"
 int main(int argc, char *argv[])
@@ -1042,10 +1043,12 @@ int main(int argc, char *argv[])
 
 <h2 align="center"> Execution</h2> 
  
+ <p align="center"> <img src="first.mp4"><br>video 1</p>
 
 https://user-images.githubusercontent.com/93345744/150661861-5a16e209-c215-4d24-9d84-f8fb1857c88f.mp4
 
 
+  <p align="center"> <img src="second.mp4"><br>video 2</p>
 
 https://user-images.githubusercontent.com/93345744/150662042-233a3d28-e71d-4ea7-93e5-6e226402d91d.mp4
 
@@ -1069,9 +1072,8 @@ https://user-images.githubusercontent.com/93345744/150662042-233a3d28-e71d-4ea7-
 <summary>mainwindow.h</summary>
 <br>
  
-```
-
-#ifndef MAINWINDOW_H
+ ```
+ #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
 #include <QMainWindow>
@@ -1113,15 +1115,15 @@ private:
 
 #endif // MAINWINDOW_H
 
-```
+ ```
 </details>
  
 <details>
 <summary>mainwindow.cpp</summary>
 <br>
  
-```
-#include "mainwindow.h"
+ ```
+ #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include<QMessageBox>
 #include"newdailog.h"
@@ -1366,14 +1368,14 @@ void MainWindow::on_actionAbout_QT_triggered()
 }
 
 
-```
+ ```
 </details>
  
 <details>
 <summary>mainwindow.ui</summary>
 <br>
  
-```
+ ```
  <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
@@ -1540,7 +1542,7 @@ void MainWindow::on_actionAbout_QT_triggered()
  <connections/>
 </ui>
 
-```
+ ```
 </details>
 
 </details>
@@ -1560,8 +1562,7 @@ void MainWindow::on_actionAbout_QT_triggered()
 <br>
   
 ```
- 
-#ifndef NEWDAILOG_H
+ #ifndef NEWDAILOG_H
 #define NEWDAILOG_H
 
 #include <QDialog>
@@ -1664,7 +1665,7 @@ void newdailog::on_pushButton_clicked()
 <details>
 <summary>newdialog.ui</summary>
 
-```
+ ```
  <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>newdailog</class>
@@ -1822,7 +1823,8 @@ void newdailog::on_pushButton_clicked()
  <connections/>
 </ui>
 
-```
+ ```
+ 
 </details>
 
 </details>
@@ -1839,7 +1841,7 @@ void newdailog::on_pushButton_clicked()
 <br>
  
 ```
-#ifndef LOGIN_H
+ #ifndef LOGIN_H
 #define LOGIN_H
 
 #include <QDialog>
@@ -2041,11 +2043,13 @@ int main(int argc, char *argv[])
  <h2 align="center"> compilation </h2> 
 the void you see because i test since yesterday and  I deleted some tasks from the database table so you will see this void but it is resolved by 
  creating another database just i make this video to show the result.
-
+ 
+  <p align="center"> <img src="one.mp4"><br>video 2</p>
 
  
 https://user-images.githubusercontent.com/93345744/150689247-884d69ac-2ca4-4ccd-b962-67d673cba027.mp4
  
+  <p align="center"> <img src="two.mp4"><br>video 1</p>
 
 https://user-images.githubusercontent.com/93345744/150689426-3b72b559-4d67-4b13-bf5c-f948b33a3dae.mp4
 
@@ -2067,6 +2071,5 @@ This homework allowed us to practice well all our knowledge learned in this cour
  
  ayoub.hsaine@eidia.ueuromed.org
  <br>
- hsaineayoub77@gmail.com
- 
+hsaineayoub77@gmail.com
 
