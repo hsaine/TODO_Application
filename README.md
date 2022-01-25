@@ -130,8 +130,6 @@ void  addelement(); //method contain the implmentation of adding new task when u
 #endif // TODO_H
  
 ```
- 
- 
 </details>
  
  
@@ -1026,8 +1024,8 @@ void login::on_pushButton_clicked()
 <br>
  
 ```
- #include "todo.h"
-
+ 
+#include "todo.h"
 #include <QApplication>
 #include"login.h"
 int main(int argc, char *argv[])
@@ -1072,8 +1070,9 @@ https://user-images.githubusercontent.com/93345744/150662042-233a3d28-e71d-4ea7-
 <summary>mainwindow.h</summary>
 <br>
  
- ```
- #ifndef MAINWINDOW_H
+```
+
+#ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
 #include <QMainWindow>
@@ -1115,15 +1114,15 @@ private:
 
 #endif // MAINWINDOW_H
 
- ```
+```
 </details>
  
 <details>
 <summary>mainwindow.cpp</summary>
 <br>
  
- ```
- #include "mainwindow.h"
+```
+#include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include<QMessageBox>
 #include"newdailog.h"
@@ -1368,14 +1367,14 @@ void MainWindow::on_actionAbout_QT_triggered()
 }
 
 
- ```
+```
 </details>
  
 <details>
 <summary>mainwindow.ui</summary>
 <br>
  
- ```
+```
  <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
@@ -1542,7 +1541,7 @@ void MainWindow::on_actionAbout_QT_triggered()
  <connections/>
 </ui>
 
- ```
+```
 </details>
 
 </details>
@@ -1562,7 +1561,8 @@ void MainWindow::on_actionAbout_QT_triggered()
 <br>
   
 ```
- #ifndef NEWDAILOG_H
+ 
+#ifndef NEWDAILOG_H
 #define NEWDAILOG_H
 
 #include <QDialog>
@@ -1665,7 +1665,7 @@ void newdailog::on_pushButton_clicked()
 <details>
 <summary>newdialog.ui</summary>
 
- ```
+```
  <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>newdailog</class>
@@ -1823,8 +1823,7 @@ void newdailog::on_pushButton_clicked()
  <connections/>
 </ui>
 
- ```
- 
+```
 </details>
 
 </details>
@@ -1841,7 +1840,7 @@ void newdailog::on_pushButton_clicked()
 <br>
  
 ```
- #ifndef LOGIN_H
+#ifndef LOGIN_H
 #define LOGIN_H
 
 #include <QDialog>
