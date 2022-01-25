@@ -130,6 +130,7 @@ void  addelement(); //method contain the implmentation of adding new task when u
 #endif // TODO_H
  
 ```
+
 </details>
  
  
@@ -139,7 +140,6 @@ void  addelement(); //method contain the implmentation of adding new task when u
 <br>
 
 ```
- 
 #include "todo.h"
 #include "ui_todo.h"
 #include"newdialog.h"
@@ -344,9 +344,7 @@ void todo::on_actionFinished_task_triggered()
 
 
 }
-
-
-
+ 
 ```
 
 </details>
@@ -356,6 +354,7 @@ void todo::on_actionFinished_task_triggered()
 <br>
 
 ```
+
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>todo</class>
