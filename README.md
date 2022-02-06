@@ -1042,13 +1042,11 @@ int main(int argc, char *argv[])
 </details>
 
 <h2 align="center"> Execution</h2> 
- 
- <p align="center"> <img src="first.mp4"><br>video 1</p>
+1. video 1 
 
 https://user-images.githubusercontent.com/93345744/150661861-5a16e209-c215-4d24-9d84-f8fb1857c88f.mp4
 
-
-  <p align="center"> <img src="second.mp4"><br>video 2</p>
+2. video 2
 
 https://user-images.githubusercontent.com/93345744/150662042-233a3d28-e71d-4ea7-93e5-6e226402d91d.mp4
 
