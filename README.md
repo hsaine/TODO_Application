@@ -2044,12 +2044,12 @@ int main(int argc, char *argv[])
 the void you see because i test since yesterday and  I deleted some tasks from the database table so you will see this void but it is resolved by 
  creating another database just i make this video to show the result.
  
-  <p align="center"> <img src="one.mp4"><br>video 2</p>
-
+1. video 1
  
 https://user-images.githubusercontent.com/93345744/150689247-884d69ac-2ca4-4ccd-b962-67d673cba027.mp4
  
-  <p align="center"> <img src="two.mp4"><br>video 1</p>
+ 2. video 2
+
 
 https://user-images.githubusercontent.com/93345744/150689426-3b72b559-4d67-4b13-bf5c-f948b33a3dae.mp4
 
@@ -2067,9 +2067,9 @@ https://user-images.githubusercontent.com/93345744/150689426-3b72b559-4d67-4b13-
 This homework allowed us to practice well all our knowledge learned in this course, in addition to practice very well the container Item based and MVC,byreading 
  the Documentation and look for the porprities and fuctions that should use,also how to create the database and how to insert and select by the way we are apply our knowledge of SQL and connect the both,finally the way to solve the problem occur during the programming.
  
-  <h2 align="center"> Email</h2> 
+<h2 align="center"> Email</h2> 
  
- ayoub.hsaine@eidia.ueuromed.org
+ayoub.hsaine@eidia.ueuromed.org
  <br>
 hsaineayoub77@gmail.com
 
